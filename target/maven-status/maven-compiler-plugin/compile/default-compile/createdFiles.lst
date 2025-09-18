@@ -1,0 +1,5 @@
+com\student\repository\StudentRepository.class
+com\student\config\SecurityConfig.class
+com\student\controller\StudentController.class
+com\student\StudentApplication.class
+com\student\entity\Student.class
