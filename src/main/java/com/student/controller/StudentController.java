@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.student.entity.Student;
 import com.student.repository.StudentRepository;
 
-@CrossOrigin(origins = "https://lavanays.netlify.app/")
+@CrossOrigin(origins = "https://lavanays.netlify.app")
 @RestController
 @RequestMapping("/api/students")
 public class StudentController {
@@ -54,5 +54,6 @@ public class StudentController {
         repo.deleteById(id);
     }
 }
+
 
 
