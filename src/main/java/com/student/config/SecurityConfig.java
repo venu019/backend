@@ -26,7 +26,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // Allow only the deployed Netlify origin
-        config.setAllowedOrigins(List.of("https://lavanays.netlify.app"));
+        config.setAllowedOrigins(List.of("https://lavanays.netlify.app/"));
 
         // Methods the frontend may use
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
@@ -72,3 +72,4 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(admin);
     }
 }
+
